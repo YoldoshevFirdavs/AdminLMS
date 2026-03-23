@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'adminapp',
     'django.contrib.humanize'
 ]
@@ -89,13 +88,14 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': "univercity_db",
-        'USER': "univercity_admin",
-        'PASSWORD': 'root',
+        'NAME': "Lms_db",
+        'USER': "Lms_admin",
+        'PASSWORD': 'python',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
+
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
